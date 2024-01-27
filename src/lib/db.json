@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Happy Ninja",
+        "category": "T-shirt",
+        "price": 10.00,
+        "Sale": 0,
+        "image": "../assets/T_shirt.jpeg"
+    },
+    {
+        "name": "Happy Ninja Hoodie",
+        "category": "Hoodies",
+        "price": 35.00,
+        "Sale": 0,
+        "image": "Hoodie.jpeg"
+    },
+    {
+        "name": "Quality Poster",
+        "category": "Posters",
+        "price": 15.00,
+        "Sale": 12.00,
+        "image": "Posters.jpeg"
+    },
+    {
+        "name": "Woo Album #1",
+        "category": "Albums",
+        "price": 9.00,
+        "Sale": 0,
+        "image": "Albums.jpeg"
+    }
+]
