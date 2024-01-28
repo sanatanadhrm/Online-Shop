@@ -52,7 +52,7 @@ export const Card = ({data}:any) => {
                         {' '}
                         ${(data.Sale).toFixed(2)}
                     </div>
-                    ): (data.price).toFixed(2)}
+                    ): ('$' + (data.price).toFixed(2))}
                 </div>
             </div>
             <button
