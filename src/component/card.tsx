@@ -15,9 +15,9 @@ export const Card = ({data}:any) => {
             <div
             className="flex justify-end p-[5px] ring-1 ring-gray-200"
             >
-                <div className='flex justify-center items-center font-bold py-[1px] px-[8px] bg-[#fa8072] absolute text-white'>
+                {data.Sale ? (<div className='flex justify-center items-center font-bold py-[1px] px-[8px] bg-[#fa8072] absolute text-white'>
                     Sale!
-                </div>
+                </div>):(<div></div>)}
                 <img
                 className="w-[150px] h-[180px]"
                 src={data.category === 'T-shirt' ? T_shirt : data.category === 'Hoodies' ? Hoodies : data.category === 'Posters' ? Posters : Albums}
