@@ -13,9 +13,9 @@ export const Card = ({data}:any) => {
     return(
         <div className="flex flex-col justify-center items-center gap-y-[14px] w-[160px]">
             <div
-            className="flex justify-end p-[5px] ring-1 ring-gray-200"
+            className="flex justify-end p-[5px] ring-1 ring-gray-200 z-0"
             >
-                {data.Sale ? (<div className='flex justify-center items-center font-bold py-[1px] px-[8px] bg-[#fa8072] absolute text-white'>
+                {data.Sale ? (<div className='flex justify-center items-center font-bold py-[1px] px-[8px] bg-[#fa8072] absolute z-10 text-white'>
                     Sale!
                 </div>):(<div></div>)}
                 <img
